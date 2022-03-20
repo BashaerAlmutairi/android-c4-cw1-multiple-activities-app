@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CD4C4C"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/tw1"
+        android:layout_width="150dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#5B5C5B"
+        android:fontFamily="@font/almendra"
+        android:padding="10dp"
+        android:shadowColor="#FF80AB"
+        android:text="CV"
+        android:textColor="#000000"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="150dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#B5B596"
+        android:fontFamily="@font/almendra"
+        android:padding="10dp"
+        android:text="Name:"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="150dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:background="#B5B596"
+        android:fontFamily="@font/almendra"
+        android:padding="10dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="150dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:background="#B5B596"
+        android:fontFamily="@font/almendra"
+        android:padding="10dp"
+        android:text="Age:"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="150dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:background="#B5B596"
+        android:fontFamily="@font/almendra"
+        android:padding="10dp"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="112dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/imageforacw" />
+</LinearLayout>
